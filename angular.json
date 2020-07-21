@@ -121,8 +121,13 @@
               "devServerTarget": "lexionlu-material-design:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "lexionlu-material-design"
 }
